@@ -26,6 +26,7 @@ export default class Greeter extends React.Component {
         var {name, description} = this.state;
         return (
             <div style={{textAlign: 'center'}}>
+                This is a sample application...
                 <GreeterForm submitForm={syncSubmitForm}/>
                 <hr/>
                 <GreeterMessage name={name} description={description}/>
